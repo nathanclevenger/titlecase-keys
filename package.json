@@ -1,14 +1,13 @@
 {
-	"name": "camelcase-keys",
-	"version": "8.0.1",
+	"name": "titlecase-keys",
+	"version": "1.0.0",
 	"description": "Convert object keys to camel case",
 	"license": "MIT",
-	"repository": "sindresorhus/camelcase-keys",
-	"funding": "https://github.com/sponsors/sindresorhus",
+	"repository": "nathanclevenger/camelcase-keys",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+		"name": "Nathan Clevenger",
+		"email": "nateclev@gmail.com",
+		"url": "https://driv.ly"
 	},
 	"type": "module",
 	"exports": "./index.js",
@@ -53,9 +52,9 @@
 		"recursive"
 	],
 	"dependencies": {
-		"camelcase": "^7.0.0",
 		"map-obj": "^4.3.0",
 		"quick-lru": "^6.1.1",
+		"title-case": "^3.0.3",
 		"type-fest": "^2.13.0"
 	},
 	"devDependencies": {
